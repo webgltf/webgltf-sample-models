@@ -1,0 +1,32 @@
+{
+  "asset": {
+    "version": "2.0"
+  },
+  "images": [
+    { "name": "lut",        "uri": "../lut_ggx_512.png" },
+    { "name": "lutSheenE",  "uri": "../lut_sheen_E.png" },
+    { "name": "lutCharlie", "uri": "../lut_charlie_512.png" },
+    
+    { "name": "envGGX",        "mimeType": "image/ktx2", "uri": "./specular_512.ktx2" },
+    { "name": "envLambertian", "mimeType": "image/ktx2", "uri": "./diffuse_512.ktx2" },
+    { "name": "envCharlie",    "mimeType": "image/ktx2", "uri": "./sheen_512.ktx2" }
+  ],
+  "textures": [
+    { "name": "lut",           "source": 0, "sampler": 0 },
+    { "name": "lutSheenE",     "source": 1, "sampler": 0 },
+    { "name": "lutCharlie",    "source": 2, "sampler": 0 },
+    
+    { "name": "envGGX",        "source": 3, "extensions": { "KHR_texture_basisu": { "source": 3 } } },
+    { "name": "envLambertian", "source": 4, "extensions": { "KHR_texture_basisu": { "source": 4 } } },
+    { "name": "envCharlie",    "source": 5, "extensions": { "KHR_texture_basisu": { "source": 5 } } }
+  ],
+  "samplers": [
+    { "wrapS": 33071, "wrapT": 33071, "minFilter": 9729 }
+  ],
+  "extensionsRequired": ["KHR_texture_basisu"],
+  "extensionsUsed": ["KHR_texture_basisu"],
+  "extras": {
+    "mipCount": 5,
+    "rotation": "+Z"
+  }
+}

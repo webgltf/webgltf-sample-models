@@ -1,0 +1,17 @@
+{
+  "name": "sample-models",
+  "version": "1.0.0",
+  "description": "WebGLTF Sample Models",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.js",
+    "generate:environments": "node environments/generate.js"
+  },
+  "author": "Shannon Poole",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.1.7",
+    "node-fetch": "^2.6.1"
+  }
+}
