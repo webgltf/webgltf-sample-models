@@ -1,6 +1,6 @@
 # STIP
 
-This model was an experiment to see if using the COA Tools addon in Blender could result in a decent glTF model.
+This model was an experiment to see if using the [COA Tools](https://github.com/ndee85/coa_tools) addon in Blender could result in a decent glTF model.
 
 Currently this model has a limitation that when using a perspective camera, any rotation at all causes clipping. This is due to the primitive sort order being determined by centroid depth.
 
@@ -17,4 +17,4 @@ Steps to reproduce this model in Blender:
 
 ## License Information
 
-The original asset for this model is licened from https://github.com/ndee85/coa_tools as GPL-3.0 License. Please visit that repo for more information.
+The original asset for this model is licened from [COA Tools](https://github.com/ndee85/coa_tools) as GPL-3.0 License. Please visit that project for more information.

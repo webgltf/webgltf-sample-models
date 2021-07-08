@@ -1,7 +1,7 @@
 /** WebGLTF Sample Models **/
 const BASE_KHRONOS_SAMPLE_URL        = 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/63f026b/2.0/';
 const BASE_KHRONOS_SAMPLE_SOURCE_URL = 'https://github.com/KhronosGroup/glTF-Sample-Models/tree/63f026b/2.0/';
-const BASE_SAMPLE_SOURCE_URL         = 'https://github.com/webgltf/sample-models/tree/main/';
+const BASE_SAMPLE_SOURCE_URL         = 'https://github.com/webgltf/webgltf-sample-models/tree/main/';
 
 function link(path, root = import.meta.url) { return new URL(path, root).toString(); }
 
